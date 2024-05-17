@@ -1,17 +1,38 @@
-## Foundry
+## Foundry 
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+Testing authentication in Foundry
+Scripting in Foundry
 
-Foundry consists of:
+**Getting Started**
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+Requirements
 
-## Documentation
+git You'll know you did it right if you can run
 
-https://book.getfoundry.sh/
+```shell
+git --version
+```
+
+and you see a response like
+
+```shell
+git version x.x.x
+```
+
+foundry
+
+You'll know you did it right if you can run
+
+```shell
+forge --version
+
+```
+and you see a response like
+
+![image](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/5a218539-70e7-457f-b425-29f704f48448)
+
+
+
 
 ## Usage
 
