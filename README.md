@@ -70,35 +70,41 @@ $ forge test
 
 ### Test Coverage
 
-
-### Format
-
 ```shell
-$ forge fmt
+forge coverage
 ```
 
-### Gas Snapshots
+![image](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/5f96cc80-7672-405e-b9b5-9d90cc1a20aa)
 
-```shell
-$ forge snapshot
-```
+# Deployment to local node
 
-### Anvil
+## Anvil
 
 ```shell
 $ anvil
 ```
 
+![Screenshot 2024-05-16 150051](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/42d4df96-0089-46e0-9d14-cbb11f50c78e)
+
+
 ### Deploy
 
 ```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+$ forge script script/DeployWallet.s.sol --rpc-url http://127.0.0.1:8545 --private-key <anvil_private_key>
 ```
 
-### Cast
+![Screenshot 2024-05-17 122343](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/01e652a3-5fe0-45ea-8f60-f6c5d618d181)
+
+![Screenshot 2024-05-17 122916](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/a0c688ac-1650-4052-afcb-8d7d4bfe7f25)
+
+![Screenshot 2024-05-17 122957](https://github.com/DCVglobalnetwork/Foundry-Authentication/assets/105791829/befa20f4-4d5f-44c7-83c0-52e5b8e5fc6a)
+
+
+
+### Format
 
 ```shell
-$ cast <subcommand>
+$ forge fmt
 ```
 
 ### Help
@@ -108,3 +114,9 @@ $ forge --help
 $ anvil --help
 $ cast --help
 ```
+
+# HAPPY CODING 
+***SECURITY RESEARCHER FOR WEB3*** 
+
+
+
